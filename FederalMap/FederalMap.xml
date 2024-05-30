@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>FederalMap</name>
+	</assembly>
+	<members>
+		<member name="T:FederalMap.Form1">
+			<summary>
+				Главный класс формы для приложения FederalMap.
+			</summary>
+		</member>
+		<member name="M:FederalMap.Form1.#ctor">
+			<summary>
+				Инициализирует новый экземпляр класса <see cref="Form1"/>.
+			</summary>
+		</member>
+		<member name="F:FederalMap.Form1.cities">
+			<summary>
+				Список городов, загруженных из базы данных.
+			</summary>
+		</member>
+		<member name="M:FederalMap.Form1.Form1_Load(System.Object,System.EventArgs)">
+			<summary>
+				Обрабатывает событие Load формы.
+				Инициализирует данные, загружая их из базы данных SQLite и заполняет элементы управления.
+			</summary>
+			<param name="sender">Источник события.</param>
+			<param name="e">
+				Экземпляр <see cref="EventArgs"/>, содержащий данные о событии.
+			</param>
+		</member>
+		<member name="M:FederalMap.Form1.comboBox1_SelectedIndexChanged_1(System.Object,System.EventArgs)">
+			<summary>
+				Обрабатывает событие SelectedIndexChanged элемента comboBox1.
+				Обновляет dataGridView2 и chart1 на основе выбранного фильтра.
+			</summary>
+			<param name="sender">Источник события.</param>
+			<param name="e">
+				Экземпляр <see cref="EventArgs"/>, содержащий данные о событии.
+			</param>
+		</member>
+	</members>
+</doc>

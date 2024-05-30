@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FederalMap", "FederalMap\FederalMap.csproj", "{C7488D7D-74BC-4B37-84FD-A7BC49ED870E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FederalMapTests", "FederalMapTests\FederalMapTests.csproj", "{FF8B4B5B-37BF-4B1F-8417-67668CACE5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7488D7D-74BC-4B37-84FD-A7BC49ED870E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7488D7D-74BC-4B37-84FD-A7BC49ED870E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7488D7D-74BC-4B37-84FD-A7BC49ED870E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7488D7D-74BC-4B37-84FD-A7BC49ED870E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8B4B5B-37BF-4B1F-8417-67668CACE5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8B4B5B-37BF-4B1F-8417-67668CACE5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8B4B5B-37BF-4B1F-8417-67668CACE5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8B4B5B-37BF-4B1F-8417-67668CACE5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A398FB97-C68E-4FCC-BB62-889B649F93F2}
+	EndGlobalSection
+EndGlobal
